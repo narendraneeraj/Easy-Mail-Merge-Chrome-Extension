@@ -6,7 +6,7 @@
   "permissions": ["identity", "storage"],
   "host_permissions": ["https://gmail.googleapis.com/*"],
   "oauth2": {
-    "client_id": "REPLACE_WITH_GOOGLE_OAUTH_CLIENT_ID.apps.googleusercontent.com",
+    "client_id": "1094879435152-bq3fda6nfusa3ta4149iofute7t4m45m.apps.googleusercontent.com",
     "scopes": ["https://www.googleapis.com/auth/gmail.send"]
   },
   "action": {"default_title": "Easy Mail Merge"},
