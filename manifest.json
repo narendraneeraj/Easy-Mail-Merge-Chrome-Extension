@@ -1,15 +1,6 @@
 {
-  "manifest_version": 3,
-  "name": "Easy Mail Merge - Gmail Mail Merge",
-  "version": "1.0.0",
-  "description": "Personalized Gmail mail merge using CSV and Excel contacts.",
-  "permissions": ["identity", "storage"],
-  "host_permissions": ["https://gmail.googleapis.com/*"],
-  "oauth2": {
-    "client_id": "1094879435152-bq3fda6nfusa3ta4149iofute7t4m45m.apps.googleusercontent.com",
-    "scopes": ["https://www.googleapis.com/auth/gmail.send"]
-  },
-  "action": {"default_title": "Easy Mail Merge"},
-  "background": {"service_worker": "background.js"},
-  "icons": {"16": "icons/icon16.png", "48": "icons/icon48.png", "128": "icons/icon128.png"}
+ "manifest_version":3,"name":"Easy Mail Merge - Gmail Mail Merge","version":"2.0.0","description":"Personalized Gmail mail merge with HTML templates, Excel, attachments and resumable campaigns.",
+ "permissions":["identity","storage"],"host_permissions":["https://gmail.googleapis.com/*"],
+ "oauth2":{"client_id":"1094879435152-4b9dijrjka4p5f5la4nhkd8g0afd68i5.apps.googleusercontent.com","scopes":["https://www.googleapis.com/auth/gmail.send"]},
+ "action":{"default_title":"Easy Mail Merge"},"background":{"service_worker":"background.js"}
 }

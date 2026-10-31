@@ -1,6 +1,1 @@
-const fs = require('fs');
-const path = require('path');
-const src = path.resolve(__dirname, '../node_modules/xlsx/dist/xlsx.full.min.js');
-const dest = path.resolve(__dirname, '../vendor/xlsx.full.min.js');
-fs.copyFileSync(src, dest);
-console.log('Bundled local Excel parser:', dest);
+const fs=require('fs');const path=require('path');const from=require.resolve('xlsx/dist/xlsx.full.min.js');fs.mkdirSync('vendor',{recursive:true});fs.copyFileSync(from,path.join('vendor','xlsx.full.min.js'));console.log('Bundled local Excel parser.');

@@ -1,8 +1,1 @@
-{
-  "name": "easy-mail-merge",
-  "version": "1.0.0",
-  "private": true,
-  "description": "Build dependencies for offline Excel import in a Chrome MV3 extension",
-  "scripts": {"build": "node scripts/build.js"},
-  "dependencies": {"xlsx": "^0.18.5"}
-}
+{"name":"easy-mail-merge-v2","version":"2.0.0","private":true,"scripts":{"build":"node scripts/build.js"},"dependencies":{"xlsx":"0.18.5"}}
